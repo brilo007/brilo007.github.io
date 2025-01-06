@@ -22,8 +22,8 @@ html, body {
 .column2 {
   float: left;
   width: 50%;
-  padding: 10px;
   text-align: center;
+  vertical-align: middle;
 }
 
 /* Create three equal columns that float next to each other */
@@ -33,7 +33,6 @@ html, body {
   padding: 10px;
   text-align: center;
 }
-
 
 /* Clear floats after the columns */
 .row:after {
