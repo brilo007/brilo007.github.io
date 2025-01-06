@@ -1,7 +1,7 @@
 /* General Styles */
 html, body {
-  height: 98%; /* creates scrollbar if higher*/
-  width: 99%;
+  height: 100; /* 98%;  creates scrollbar if higher*/
+  width: 100%;
   background-color: #000000;
 }
 
