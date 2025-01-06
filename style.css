@@ -1,0 +1,119 @@
+/* General Styles */
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+}
+
+#container {
+  /* background-color: #333; */
+  /* box-sizing: border-box; */
+  /* width: 1440px; */
+  margin: auto;
+  text-align: center; 
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 100%;
+  /* border-style: dotted;
+  border-width: 10px;
+  border-color:  #aaa; */
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that float next to each other */
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Create three equal columns that float next to each other */
+.column3 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Slightly Off-Centered text */
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column2 {
+    width: 100%;
+  }
+}
+
+a:link, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #FF0000;
+}
+
+/* Typography Styles */
+h1 {
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  color: #777;
+  font-size: 3em;
+  text-align: center;
+}
+h2 {
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  color: #fff;
+  font-size: 1.7em;
+}
+p{
+  color:#fff;
+  font-size: 1.2em;
+}
